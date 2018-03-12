@@ -1,0 +1,22 @@
+{
+  "name": "wot",
+  "type": "onOffLight",
+  "description": "LED on Arduino Pin 8",
+  "properties": {
+    "on": {
+      "type": "boolean",
+      "description": "Switch of LED at pin 8",
+      "href": "/things/wot/properties/on"
+    }
+  },
+  "actions": {
+    "reset": {
+      "description": "Reset the Thing"
+    }
+  },
+  "events": {
+    "switch": {
+      "description": "Log of switches"
+    }
+  }
+}
